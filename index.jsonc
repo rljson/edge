@@ -1,0 +1,37 @@
+// @license
+// Copyright (c) 2025 Rljson
+//
+// Use of this source code is governed by terms that can be
+// found in the LICENSE file in the root of this package.
+
+{
+  // The package name, as declared in pubspec.yaml / package.json.
+  "name": "@rljson/edge",
+
+  // 1-2 sentence summary about this repo.
+  "summary": "Edge, the example data generator for Rljson: deterministic car world (manufacturers, catalogs, cars, prices, brands, workshops, bills of materials, CAD scenes). API: Edge.preset/estimate/generate/run(sink), EConfig, ESink, ECarWorld, dictionaries. No randomness, no fs/io dependency.",
+
+  // 1-3 bullet points: the problem space.
+  "domain": [
+    "test data for Rljson apps: uikit, db, io, validators",
+    "every Rljson data type in one world: components, sliceIds, layers, cakes, trees, revisions, tableCfgs",
+    "worlds from 100 rows to 25 million rows, in memory or through a callback sink"
+  ],
+
+  // The repos this one depends on and the repos depending on it.
+  // Keep the reason or the API behind each entry, not just the name.
+  "interfaces": {
+    // "<repo-a>": "why / API"
+    "uses": {
+      "rljson": "types (Layer, Cake, SliceIds, Tree, Revision, TableCfg), createXTableCfg helpers",
+      "hash": "hsh/hip to hash rows and tables",
+      "json": "Json types"
+    },
+
+    // "<repo-b>": "why / API"
+    "usedBy": {
+      "rljson.github.io": "tutorials of the section »Generate Rljson«",
+      "uikit": "planned: fixtures from the tiny preset"
+    }
+  }
+}
