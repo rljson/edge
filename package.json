@@ -28,8 +28,7 @@
     "updateGoldens": "cross-env UPDATE_GOLDENS=true pnpm test"
   },
   "devDependencies": {
-    "@ggdna/dna-github": "github:ggdna/dna_github",
-    "@ggdna/dna-vscode": "github:ggdna/dna_vscode",
+    "@rljson/dna-rljson": "^0.2.0",
     "@tssuite/helix-js": "^0.3.0",
     "@types/node": "^26.6.4",
     "@typescript-eslint/eslint-plugin": "^8.71.0",
