@@ -5,6 +5,9 @@
   "homepage": "https://github.com/rljson/edge",
   "bugs": "https://github.com/rljson/edge/issues",
   "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
   "engines": {
     "node": ">=22.14.0"
