@@ -6,24 +6,22 @@
 
 import { describe, expect, it } from 'vitest';
 
-import { example } from '../src/example';
+import { example } from '../src/example.ts';
 
-import { expectGolden } from './setup/goldens';
+import { expectGolden } from './setup/goldens.ts';
 
-
-describe('example', () => {
-  it('should run without error', async () => {
-    // Execute example
+describe('example()', () => {
+  it('runs the README examples and prints what they produce', async () => {
     const logMessages: string[] = [];
     const log = console.log;
     console.log = (message: string) => logMessages.push(message);
-    example();
+    try {
+      await example();
+    } finally {
+      console.log = log;
+    }
 
-    // Write golden file
     await expectGolden('example.log').toBe(logMessages.join('\n'));
-
-    // Restore console.log
-    console.log = log;
-    expect('hello').toBe('hello');
+    expect(logMessages[0]).toBe('Generate a world');
   });
 });
