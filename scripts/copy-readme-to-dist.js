@@ -39,6 +39,22 @@ const copyReadmeFiles = async () => {
   }
 };
 
+// Ships the use case page and its images, rljson.github.io shows them
+const copyUsecaseDoc = async () => {
+  const srcDir = join(__dirname, '..', 'doc');
+  const destDir = join(__dirname, '..', 'dist', 'doc');
+  await createDir(join(destDir, 'img'));
+  await copyFile(
+    join(srcDir, 'architecture.md'),
+    join(destDir, 'architecture.md'),
+  );
+
+  const images = await fs.readdir(join(srcDir, 'img'));
+  for (const file of images.filter((f) => f.startsWith('usecase-'))) {
+    await copyFile(join(srcDir, 'img', file), join(destDir, 'img', file));
+  }
+};
+
 const main = async () => {
   const srcExample = join(__dirname, '..', 'src', 'example.ts');
   const destExampleDir = join(__dirname, '..', 'dist', 'src');
@@ -47,6 +63,7 @@ const main = async () => {
   await createDir(destExampleDir);
   await copyFile(srcExample, destExample);
   await copyReadmeFiles();
+  await copyUsecaseDoc();
 
   console.log('Files copied successfully.');
 };

@@ -28,6 +28,7 @@
     "prebuild": "pnpm test",
     "prepublishOnly": "pnpm build",
     "lint": "pnpm eslint",
+    "usecase": "vite-node scripts/usecase/build-usecase.ts",
     "updateGoldens": "cross-env UPDATE_GOLDENS=true pnpm test"
   },
   "devDependencies": {

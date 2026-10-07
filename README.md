@@ -23,8 +23,8 @@ rows for a load test.
 - Scale from a unit test fixture to a load test with 20 million objects
 - Run in Node.js, in the browser and in Web Workers, without file system or
   database dependencies
-- Keep the data vivid: real brands and models, plausible parts, workshops
-  with addresses and owners
+- Keep the data vivid: well-known car names, plausible parts, workshops
+  with addresses and owners, all invented (see Trademarks)
 
 ## State
 
@@ -38,6 +38,8 @@ pnpm add @rljson/edge @rljson/rljson
 
 ## Documentation
 
+- [The car world](doc/architecture.md): what Edge generates and why,
+  explained with pictures, for readers without a technical background
 - [Example data generator](https://github.com/rljson/rljson-pm/blob/main/doc/2026-Q4/concepts/topics/example-data-generator.md):
   design, sizes and ideas, in the project management repo
 - [Decisions edge-001 to edge-004](https://github.com/rljson/rljson-pm/blob/main/doc/2026-Q4/concepts/decisions/000-index.md):
@@ -168,6 +170,12 @@ catalog.
 | `EConfig` and its sections               | `ELayersConfig`, `EPricesConfig`, `EBrandsConfig`, `EWorkshopsConfig`, `EPartsConfig`, `ECadConfig`, `ERevisionsConfig`, `EResolvedConfig`                                                                 |
 | `EStats`, `EEstimate`, `EProgress`       | The results and the progress of a run                                                                                                                                                                      |
 | Dictionaries                             | `manufacturers`, `vehicles`, `modelsOf`, `assemblies`, `standardParts`, `materialsOf`, `cadSystems`, `cadDetails`, `cadMaterials`, `cities`, `citiesIn`, `cityNamed`, `streets`, `firstNames`, `lastNames` |
+
+## Trademarks
+
+Edge invents all data: prices, addresses, people, workshops and parts.
+Brand and model names only make the examples easier to follow; they belong
+to their owners. Edge and Rljson have no connection to any car manufacturer.
 
 ## Contributing
 
