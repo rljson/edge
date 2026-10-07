@@ -64,20 +64,20 @@ importers:
         specifier: ^8.71.1
         version: 8.71.1(eslint@10.12.0)(typescript@6.0.3)
       vite:
-        specifier: ^8.3.2
-        version: 8.3.2(@types/node@26.6.4)
+        specifier: ^8.3.3
+        version: 8.3.3(@types/node@26.6.4)
       vite-node:
         specifier: ^6.0.0
         version: 6.0.0(@types/node@26.6.4)
       vite-plugin-dts:
         specifier: ^5.1.2
-        version: 5.1.2(rolldown@1.2.12)(typescript@6.0.3)(vite@8.3.2(@types/node@26.6.4))
+        version: 5.1.2(rolldown@1.2.12)(typescript@6.0.3)(vite@8.3.3(@types/node@26.6.4))
       vite-tsconfig-paths:
         specifier: ^6.1.1
-        version: 6.1.1(typescript@6.0.3)(vite@8.3.2(@types/node@26.6.4))
+        version: 6.1.1(typescript@6.0.3)(vite@8.3.3(@types/node@26.6.4))
       vitest:
         specifier: ^5.0.3
-        version: 5.0.3(@types/node@26.6.4)(@vitest/coverage-v8@5.0.3)(vite@8.3.2(@types/node@26.6.4))
+        version: 5.0.3(@types/node@26.6.4)(@vitest/coverage-v8@5.0.3)(vite@8.3.3(@types/node@26.6.4))
       vitest-dom:
         specifier: ^0.1.1
         version: 0.1.1(vitest@5.0.3)
@@ -156,36 +156,36 @@ packages:
     resolution: {integrity: sha512-IkO+/KEUvwbVpiURZg+P7zF74z5Jxe0UgJxVni+RtoHQ6IZieXaO02kmadomap/q+l6bc/jdPGGqTjhuZnuz1Q==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
 
-  '@ggdna/dna-blog@0.1.1':
-    resolution: {integrity: sha512-eYS8tKVga0XcUf/++gGaEzY50Atn+dKkSmCZtMbC52HMsilbwsM2fXYvAYfbTdrs0keOpZpcZ+tT1jsy7XTIjA==}
+  '@ggdna/dna-blog@0.1.2':
+    resolution: {integrity: sha512-h+dID8blImZaeptYwGlxaoxJznQ8QWNjXiXIpHHkYX34VoiYSYhfxJLUfhBYQDanG0wamj1Z0rBA6ijVsPbIwQ==}
     engines: {node: '>=22'}
 
-  '@ggdna/dna-clean-code@0.1.1':
-    resolution: {integrity: sha512-LUqSuWgHf5syCSWeorl2wlbeRxLRC6H36r/fDgUkn18LOZhbtbLOUfEaiOHDkiUM7u/3zP8W2cggsX+DsJ3gCQ==}
+  '@ggdna/dna-clean-code@0.1.2':
+    resolution: {integrity: sha512-Xcz/zBjGBu+mY4TRc3uJasU4vs9JrZpgGBGKHvlvrCZts407fBdIM983dKN/PViX06GbCLcCk6WnYZ/BCDjVHw==}
     engines: {node: '>=22'}
 
   '@ggdna/dna-gg@0.2.0':
     resolution: {integrity: sha512-HD8GhbEMARMXc5Ewnz6gVJmGqZd+RO7KQPTRYl6GH/0lj0ZfQOzmeSr3lbUiHB3EQGwJ9ApIFs7Igsb2R0VSYg==}
     engines: {node: '>=22'}
 
-  '@ggdna/dna-guides@0.1.1':
-    resolution: {integrity: sha512-23cfV9RDhviav81qJWsSNvFL9qHS7x1NjvOCF0mVuCiyBmJ3vKMe4RveJ3EJVNDfh9X09t1biW0vUirjkGDpdQ==}
+  '@ggdna/dna-guides@0.1.2':
+    resolution: {integrity: sha512-xxpeS9ozDlgbfB0Pfj390UKI71sF72F8nvqTWz6KLg+pdWOSDCtp4wx+sVQItVMLvZSphCHd4q6uhdl2s2/5hg==}
     engines: {node: '>=22'}
 
-  '@ggdna/dna-index@0.1.2':
-    resolution: {integrity: sha512-uj7kWBhaicZqWzXRk9lXrWUdPjOg4ZMGk1FadzQfYm7ZbH3iwATJX41ukqpHLmLgDtPyYh+NjIGF8k3VNxmHxA==}
+  '@ggdna/dna-index@0.1.3':
+    resolution: {integrity: sha512-X8ys/hXuw2h9u9e3q8Z9q9ZFK60E8ESsRccSCPI1XyBO630qs9rN9qyUDBQoAJRpbpNg3dVnkwiIS7Py2rqGEg==}
     engines: {node: '>=22'}
 
-  '@ggdna/dna-install@0.1.2':
-    resolution: {integrity: sha512-QsBtZiT95EE6+XLX+0Cm9GevBmljqiiXQBw4Ki0R5s5R6eWRM3eNUJhF5kaHms/mcvUjvo/TpHJwPevxt73UJw==}
+  '@ggdna/dna-install@0.1.3':
+    resolution: {integrity: sha512-R0/Ei/FgrfMr7v1BKpABwuqsM/FrP8K1e64JgSPAk3EFPnV3Cqp63/FlnGGPB/20XxgpAsmZKuTE2cNY2aRQrA==}
     engines: {node: '>=22'}
 
-  '@ggdna/dna-readme@0.1.1':
-    resolution: {integrity: sha512-rlY1RqH2Y2v1mDaRifbJ86IX7EtOFHeB6oPRmt9oZXt3L01ir3u/A141jWXF6H6mPuTRQ/fVXi+tgT+2uEdf/w==}
+  '@ggdna/dna-readme@0.1.2':
+    resolution: {integrity: sha512-n/wwkF1mB8eU8YaL52j29Q0PA32L1+aZVrMMwsFi2/PL8MnALDSAsqJzbcqOzFwbomUwSiLbCeg5bVEkdQxTjQ==}
     engines: {node: '>=22'}
 
-  '@ggdna/dna-translate@0.1.1':
-    resolution: {integrity: sha512-JmKp3vuxuu0QqhKJiKz1PtaDSoVg0BNfsfV7Pdr3S3KYJzEQh3I2ajqJUOxE2Nimyeyr3OHle04OXKL8YrOKjA==}
+  '@ggdna/dna-translate@0.1.2':
+    resolution: {integrity: sha512-x4a+O7f/AxIxzo1qCTqdK4w5VrIo7pdceHUdzaU6Dqr/glev/tyIznyf9YeZ6vznGEhOhPrXJ9+aw5O6Yr0p/w==}
     engines: {node: '>=22'}
 
   '@humanfs/core@0.19.2':
@@ -1048,8 +1048,8 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  nanoid@6.0.1:
-    resolution: {integrity: sha512-3wVS3i51pE2pi1k5FFL/95BGfVS0kSsvDVuGXHOtxox/TywUmtgq+3qiTOTbs9J7KfHaXPiN171k/A6dBnaXFw==}
+  nanoid@6.0.2:
+    resolution: {integrity: sha512-hIvVOb9Qr1p/9CNNLOe0OlWvgx/ziTsVwKN/GDSsuArN2K0wDiafP3s0SWmsm7o2BdnyS8Z9Z64NFBUbn6ziBg==}
     engines: {node: ^22 || ^24 || >=26}
     hasBin: true
 
@@ -1363,8 +1363,8 @@ packages:
     peerDependencies:
       vite: '*'
 
-  vite@8.3.2:
-    resolution: {integrity: sha512-SQr1x6W5vVSbROg7vsyXIaxK9b0G7zsT68acdWWRmnBUsgDieLCRG+Rep9WdZgcposvv/GSnr4GUUBqB3vXq6w==}
+  vite@8.3.3:
+    resolution: {integrity: sha512-cTAldKPImjg6c+gk48U19POPn3GCBzZwpdsN8ZMEEcbpes+6/wvfqUd0C2y3qYY4wsj8PwgFwrZ/1jBPVttMSg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -1556,24 +1556,24 @@ snapshots:
       '@eslint/core': 1.2.1
       levn: 0.4.1
 
-  '@ggdna/dna-blog@0.1.1': {}
+  '@ggdna/dna-blog@0.1.2': {}
 
-  '@ggdna/dna-clean-code@0.1.1': {}
+  '@ggdna/dna-clean-code@0.1.2': {}
 
   '@ggdna/dna-gg@0.2.0':
     dependencies:
-      '@ggdna/dna-index': 0.1.2
-      '@ggdna/dna-install': 0.1.2
+      '@ggdna/dna-index': 0.1.3
+      '@ggdna/dna-install': 0.1.3
 
-  '@ggdna/dna-guides@0.1.1': {}
+  '@ggdna/dna-guides@0.1.2': {}
 
-  '@ggdna/dna-index@0.1.2': {}
+  '@ggdna/dna-index@0.1.3': {}
 
-  '@ggdna/dna-install@0.1.2': {}
+  '@ggdna/dna-install@0.1.3': {}
 
-  '@ggdna/dna-readme@0.1.1': {}
+  '@ggdna/dna-readme@0.1.2': {}
 
-  '@ggdna/dna-translate@0.1.1': {}
+  '@ggdna/dna-translate@0.1.2': {}
 
   '@humanfs/core@0.19.2':
     dependencies:
@@ -1635,14 +1635,14 @@ snapshots:
 
   '@rljson/dna-rljson@0.2.0':
     dependencies:
-      '@ggdna/dna-blog': 0.1.1
-      '@ggdna/dna-clean-code': 0.1.1
+      '@ggdna/dna-blog': 0.1.2
+      '@ggdna/dna-clean-code': 0.1.2
       '@ggdna/dna-gg': 0.2.0
-      '@ggdna/dna-guides': 0.1.1
-      '@ggdna/dna-index': 0.1.2
-      '@ggdna/dna-install': 0.1.2
-      '@ggdna/dna-readme': 0.1.1
-      '@ggdna/dna-translate': 0.1.1
+      '@ggdna/dna-guides': 0.1.2
+      '@ggdna/dna-index': 0.1.3
+      '@ggdna/dna-install': 0.1.3
+      '@ggdna/dna-readme': 0.1.2
+      '@ggdna/dna-translate': 0.1.2
 
   '@rljson/hash@0.0.19':
     dependencies:
@@ -1654,7 +1654,7 @@ snapshots:
     dependencies:
       '@rljson/hash': 0.0.19
       '@rljson/json': 0.0.23
-      nanoid: 6.0.1
+      nanoid: 6.0.2
 
   '@rolldown/binding-android-arm-eabi@1.2.12':
     optional: true
@@ -1893,7 +1893,7 @@ snapshots:
       obug: 2.2.1
       std-env: 4.3.0
       tinyrainbow: 3.2.0
-      vitest: 5.0.3(@types/node@26.6.4)(@vitest/coverage-v8@5.0.3)(vite@8.3.2(@types/node@26.6.4))
+      vitest: 5.0.3(@types/node@26.6.4)(@vitest/coverage-v8@5.0.3)(vite@8.3.3(@types/node@26.6.4))
 
   '@vitest/istanbul-lib-coverage@1.0.2': {}
 
@@ -1901,14 +1901,14 @@ snapshots:
     dependencies:
       '@vitest/istanbul-lib-coverage': 1.0.2
 
-  '@vitest/mocker@5.0.3(vite@8.3.2(@types/node@26.6.4))':
+  '@vitest/mocker@5.0.3(vite@8.3.3(@types/node@26.6.4))':
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
       '@vitest/spy': 5.0.3
       estree-walker: 3.0.3
       magic-string: 1.4.3
     optionalDependencies:
-      vite: 8.3.2(@types/node@26.6.4)
+      vite: 8.3.3(@types/node@26.6.4)
 
   '@vitest/spy@5.0.3': {}
 
@@ -2393,7 +2393,7 @@ snapshots:
 
   nanoid@3.3.20: {}
 
-  nanoid@6.0.1: {}
+  nanoid@6.0.2: {}
 
   natural-compare@1.4.0: {}
 
@@ -2625,7 +2625,7 @@ snapshots:
 
   unicorn-magic@0.4.1: {}
 
-  unplugin-dts@1.1.2(rolldown@1.2.12)(typescript@6.0.3)(vite@8.3.2(@types/node@26.6.4)):
+  unplugin-dts@1.1.2(rolldown@1.2.12)(typescript@6.0.3)(vite@8.3.3(@types/node@26.6.4)):
     dependencies:
       '@rollup/pluginutils': 5.4.0
       '@volar/typescript': 2.4.28
@@ -2639,7 +2639,7 @@ snapshots:
       unplugin: 2.3.11
     optionalDependencies:
       rolldown: 1.2.12
-      vite: 8.3.2(@types/node@26.6.4)
+      vite: 8.3.3(@types/node@26.6.4)
     transitivePeerDependencies:
       - supports-color
 
@@ -2665,7 +2665,7 @@ snapshots:
       es-module-lexer: 2.3.2
       obug: 2.2.1
       pathe: 2.0.3
-      vite: 8.3.2(@types/node@26.6.4)
+      vite: 8.3.3(@types/node@26.6.4)
     transitivePeerDependencies:
       - '@types/node'
       - '@vitejs/devtools'
@@ -2680,11 +2680,11 @@ snapshots:
       - tsx
       - yaml
 
-  vite-plugin-dts@5.1.2(rolldown@1.2.12)(typescript@6.0.3)(vite@8.3.2(@types/node@26.6.4)):
+  vite-plugin-dts@5.1.2(rolldown@1.2.12)(typescript@6.0.3)(vite@8.3.3(@types/node@26.6.4)):
     dependencies:
-      unplugin-dts: 1.1.2(rolldown@1.2.12)(typescript@6.0.3)(vite@8.3.2(@types/node@26.6.4))
+      unplugin-dts: 1.1.2(rolldown@1.2.12)(typescript@6.0.3)(vite@8.3.3(@types/node@26.6.4))
     optionalDependencies:
-      vite: 8.3.2(@types/node@26.6.4)
+      vite: 8.3.3(@types/node@26.6.4)
     transitivePeerDependencies:
       - '@rspack/core'
       - '@vue/language-core'
@@ -2694,17 +2694,17 @@ snapshots:
       - typescript
       - webpack
 
-  vite-tsconfig-paths@6.1.1(typescript@6.0.3)(vite@8.3.2(@types/node@26.6.4)):
+  vite-tsconfig-paths@6.1.1(typescript@6.0.3)(vite@8.3.3(@types/node@26.6.4)):
     dependencies:
       debug: 4.4.3
       globrex: 0.1.2
       tsconfck: 3.1.6(typescript@6.0.3)
-      vite: 8.3.2(@types/node@26.6.4)
+      vite: 8.3.3(@types/node@26.6.4)
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  vite@8.3.2(@types/node@26.6.4):
+  vite@8.3.3(@types/node@26.6.4):
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.7
@@ -2723,12 +2723,12 @@ snapshots:
       dom-accessibility-api: 0.6.3
       lodash-es: 4.18.1
       redent: 4.0.0
-      vitest: 5.0.3(@types/node@26.6.4)(@vitest/coverage-v8@5.0.3)(vite@8.3.2(@types/node@26.6.4))
+      vitest: 5.0.3(@types/node@26.6.4)(@vitest/coverage-v8@5.0.3)(vite@8.3.3(@types/node@26.6.4))
 
-  vitest@5.0.3(@types/node@26.6.4)(@vitest/coverage-v8@5.0.3)(vite@8.3.2(@types/node@26.6.4)):
+  vitest@5.0.3(@types/node@26.6.4)(@vitest/coverage-v8@5.0.3)(vite@8.3.3(@types/node@26.6.4)):
     dependencies:
       '@types/chai': 5.2.3
-      '@vitest/mocker': 5.0.3(vite@8.3.2(@types/node@26.6.4))
+      '@vitest/mocker': 5.0.3(vite@8.3.3(@types/node@26.6.4))
       chai: 6.3.0
       es-module-lexer: 2.3.2
       expect-type: 1.4.0
@@ -2739,7 +2739,7 @@ snapshots:
       tinybench: 6.2.0
       tinyexec: 1.3.1
       tinyglobby: 0.2.17
-      vite: 8.3.2(@types/node@26.6.4)
+      vite: 8.3.3(@types/node@26.6.4)
       why-is-node-running: 3.2.1
     optionalDependencies:
       '@types/node': 26.6.4
