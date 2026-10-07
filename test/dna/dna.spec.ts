@@ -5,10 +5,6 @@
 import { runDnaTest } from '@tssuite/helix-js';
 import { test } from 'vitest';
 
-test(
-  'dna is instantiated and unmodified',
-  async () => {
-    await runDnaTest();
-  },
-  120000,
-);
+test('dna is instantiated and unmodified', async () => {
+  await runDnaTest();
+}, 120000);

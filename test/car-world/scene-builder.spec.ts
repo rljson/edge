@@ -12,7 +12,7 @@ import { EEmitter } from '../../src/core/emitter.ts';
 import type { ECadMeta } from '../../src/index.ts';
 
 describe('ESceneBuilder', () => {
-  const variant = { code: 'a4', name: 'Audi A4', offset: 1 };
+  const variant = { code: 'dovix', name: 'Yarant Dovix', offset: 1 };
   const meta = (row: Tree) => row.meta as ECadMeta;
 
   const build = async (
@@ -48,7 +48,7 @@ describe('ESceneBuilder', () => {
           nodes: rows.length,
           scene: [scene.id, scene.isParent, scene.children?.length],
           variants: [...new Set(rows.map((r) => meta(r).variant))],
-        }).toEqual({ nodes, scene: ['scene', true, 2], variants: ['Audi A4'] });
+        }).toEqual({ nodes, scene: ['scene', true, 2], variants: ['Yarant Dovix'] });
       });
     }
 

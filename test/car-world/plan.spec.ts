@@ -34,10 +34,10 @@ describe('segmentOf(catalogIndex)', () => {
 describe('catalogBaseId, carSliceId and carNoOf', () => {
   it('build and read the ids', () => {
     expect([
-      catalogBaseId('audi', 1),
-      carSliceId('audi-cars', 17),
-      carNoOf('audi-cars-000017'),
-    ]).toEqual(['audi-vans', 'audi-cars-000017', 17]);
+      catalogBaseId('yarant', 1),
+      carSliceId('yarant-cars', 17),
+      carNoOf('yarant-cars-000017'),
+    ]).toEqual(['yarant-vans', 'yarant-cars-000017', 17]);
   });
 });
 
@@ -49,13 +49,13 @@ describe('planVersions({ baseId, cars, startYear, revisions })', () => {
     changeShare: 0.2,
   };
   const plan = planVersions({
-    baseId: 'audi-cars',
+    baseId: 'yarant-cars',
     cars: 6,
     startYear: 2026,
     revisions,
   });
   const ids = (...numbers: number[]) =>
-    numbers.map((n) => carSliceId('audi-cars', n));
+    numbers.map((n) => carSliceId('yarant-cars', n));
 
   it('lists every car in the first year', () => {
     expect(plan[0]).toEqual({
@@ -92,7 +92,7 @@ describe('planVersions({ baseId, cars, startYear, revisions })', () => {
 });
 
 describe('modelCountOf(config, models)', () => {
-  const models = modelsOf('Audi');
+  const models = modelsOf('Yarant');
 
   it('caps the configured models by the models the brand has', () => {
     const config = resolveEdgeConfig({
@@ -126,10 +126,10 @@ describe('modelIndexOf({ carNo, initialCars, models, popularity })', () => {
 });
 
 describe('variantOf({ sharing, sliceId, model, modelIndex, segment, catalogIndex })', () => {
-  const [a4] = modelsOf('Audi').filter((m) => m.model === 'A4');
+  const [dovix] = modelsOf('Yarant').filter((m) => m.model === 'Dovix');
   const options = {
-    sliceId: 'audi-cars-000017',
-    model: a4,
+    sliceId: 'yarant-cars-000017',
+    model: dovix,
     modelIndex: 2,
     segment: 'cars',
     catalogIndex: 3,
@@ -141,9 +141,9 @@ describe('variantOf({ sharing, sliceId, model, modelIndex, segment, catalogIndex
       variantOf({ ...options, sharing: 'perModel' }),
       variantOf({ ...options, sharing: 'perCatalog' }),
     ]).toEqual([
-      { code: 'cars-000017', name: 'audi-cars-000017', offset: 17 },
-      { code: 'a4', name: 'Audi A4', offset: 2 },
-      { code: 'cars', name: 'Audi cars', offset: 3 },
+      { code: 'cars-000017', name: 'yarant-cars-000017', offset: 17 },
+      { code: 'dovix', name: 'Yarant Dovix', offset: 2 },
+      { code: 'cars', name: 'Yarant cars', offset: 3 },
     ]);
   });
 });

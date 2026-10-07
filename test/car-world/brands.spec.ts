@@ -14,15 +14,15 @@ import {
 import { modelsOf, vehicles } from '../../src/index.ts';
 
 describe('brandRow(model, modelIndex)', () => {
-  const [golf] = modelsOf('Volkswagen').filter((m) => m.model === 'Golf');
+  const [orveo] = modelsOf('Velora').filter((m) => m.model === 'Orveo');
 
   it('describes the model with a power that grows by index', () => {
-    expect(brandRow(golf, 2)).toEqual({
-      brand: 'Volkswagen',
-      model: 'Golf',
+    expect(brandRow(orveo, 2)).toEqual({
+      brand: 'Velora',
+      model: 'Orveo',
       bodyType: 'hatchback',
       fuel: 'petrol',
-      powerKw: powerKwOf(golf, 0) + 2 * 15,
+      powerKw: powerKwOf(orveo, 0) + 2 * 15,
     });
   });
 });

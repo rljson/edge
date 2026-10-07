@@ -37,10 +37,10 @@ describe('ECatalogGenerator', () => {
       config: resolveEdgeConfig(edgeConfig),
       manufacturer: {
         index: 0,
-        id: 'audi',
-        prefix: 'AUD',
+        id: 'yarant',
+        prefix: 'YAR',
         country: 'DE',
-        models: modelsOf('Audi'),
+        models: modelsOf('Yarant'),
       },
       catalogIndex,
       caches,
@@ -74,7 +74,7 @@ describe('ECatalogGenerator', () => {
       }).toEqual({
         cakes: 3,
         cars: 10,
-        ids: ['audi-cars-2026', 'audi-cars-2027', 'audi-cars-2028'],
+        ids: ['yarant-cars-2026', 'yarant-cars-2027', 'yarant-cars-2028'],
       });
       expect(world.revisions._data as Revision[]).toEqual([
         {
@@ -82,7 +82,7 @@ describe('ECatalogGenerator', () => {
           predecessor: result.cakeRefs[0],
           successor: result.cakeRefs[1],
           timestamp: Date.UTC(2027, 0, 1),
-          id: 'audi-cars',
+          id: 'yarant-cars',
           _hash: expect.any(String),
         },
         {
@@ -90,7 +90,7 @@ describe('ECatalogGenerator', () => {
           predecessor: result.cakeRefs[1],
           successor: result.cakeRefs[2],
           timestamp: Date.UTC(2028, 0, 1),
-          id: 'audi-cars',
+          id: 'yarant-cars',
           _hash: expect.any(String),
         },
       ]);
@@ -116,7 +116,7 @@ describe('ECatalogGenerator', () => {
         first.base,
         second.base,
         second.remove,
-      ]).toEqual([6, undefined, first._hash, ['audi-cars-000005']]);
+      ]).toEqual([6, undefined, first._hash, ['yarant-cars-000005']]);
 
       const [prices, nextPrices] = world.carPrices._data as Layer[];
       const [brands, nextBrands] = world.carBrands._data as Layer[];
@@ -128,10 +128,10 @@ describe('ECatalogGenerator', () => {
         brandAdd: keysOf(nextBrands.add),
       }).toEqual({
         priceBase: prices._hash,
-        priceRemove: ['audi-cars-000005'],
-        priceAdd: ['audi-cars-000007', 'audi-cars-000008', 'audi-cars-000006'],
+        priceRemove: ['yarant-cars-000005'],
+        priceAdd: ['yarant-cars-000007', 'yarant-cars-000008', 'yarant-cars-000006'],
         brandRemove: undefined,
-        brandAdd: ['audi-cars-000007', 'audi-cars-000008'],
+        brandAdd: ['yarant-cars-000007', 'yarant-cars-000008'],
       });
     });
 
@@ -227,7 +227,7 @@ describe('ECatalogGenerator', () => {
         },
         1,
       );
-      expect((world.catalogs._data[0] as Cake).id).toBe('audi-vans-2026');
+      expect((world.catalogs._data[0] as Cake).id).toBe('yarant-vans-2026');
     });
   });
 });

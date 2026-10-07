@@ -55,19 +55,19 @@ svg.uc .uc-card{fill:var(--uc-card);stroke:var(--uc-line);stroke-width:1.5}
 <text x="140" y="125" class="uc-b" text-anchor="start">Catalog 2026</text>
 <text x="140" y="145" class="uc-s" text-anchor="start">5 cars</text>
 <g transform="translate(78 210) scale(0.28)"><path d="M-58 12 L-58 -2 Q-56 -10 -44 -12 L-28 -14 L-12 -28 Q-6 -32 4 -32 L26 -32 Q34 -32 40 -26 L52 -13 Q60 -11 60 -2 L60 12 Z" class="uc-f-blue"/><path d="M-22 -14 L-10 -26 Q-6 -28 -2 -28 L10 -28 L10 -14 Z" class="uc-f-glass"/><path d="M14 -28 L26 -28 Q32 -28 36 -24 L46 -14 L14 -14 Z" class="uc-f-glass"/><circle cx="-34" cy="12" r="12" class="uc-f-tire"/><circle cx="-34" cy="12" r="5" class="uc-f-steel"/><circle cx="36" cy="12" r="12" class="uc-f-tire"/><circle cx="36" cy="12" r="5" class="uc-f-steel"/></g>
-<text x="104" y="215" class="uc-t" text-anchor="start">Polo (no. 1)</text>
+<text x="104" y="215" class="uc-t" text-anchor="start">Amita (no. 1)</text>
 <text x="380" y="215" class="uc-s" text-anchor="end">18,600 EUR</text>
 <g transform="translate(78 244) scale(0.28)"><path d="M-58 12 L-58 -2 Q-56 -10 -44 -12 L-28 -14 L-12 -28 Q-6 -32 4 -32 L26 -32 Q34 -32 40 -26 L52 -13 Q60 -11 60 -2 L60 12 Z" class="uc-f-blue"/><path d="M-22 -14 L-10 -26 Q-6 -28 -2 -28 L10 -28 L10 -14 Z" class="uc-f-glass"/><path d="M14 -28 L26 -28 Q32 -28 36 -24 L46 -14 L14 -14 Z" class="uc-f-glass"/><circle cx="-34" cy="12" r="12" class="uc-f-tire"/><circle cx="-34" cy="12" r="5" class="uc-f-steel"/><circle cx="36" cy="12" r="12" class="uc-f-tire"/><circle cx="36" cy="12" r="5" class="uc-f-steel"/></g>
-<text x="104" y="249" class="uc-t" text-anchor="start">Golf (no. 2)</text>
+<text x="104" y="249" class="uc-t" text-anchor="start">Orveo (no. 2)</text>
 <text x="380" y="249" class="uc-s" text-anchor="end">26,070 EUR</text>
 <g transform="translate(78 278) scale(0.28)"><path d="M-58 12 L-58 -2 Q-56 -10 -44 -12 L-28 -14 L-12 -28 Q-6 -32 4 -32 L26 -32 Q34 -32 40 -26 L52 -13 Q60 -11 60 -2 L60 12 Z" class="uc-f-blue"/><path d="M-22 -14 L-10 -26 Q-6 -28 -2 -28 L10 -28 L10 -14 Z" class="uc-f-glass"/><path d="M14 -28 L26 -28 Q32 -28 36 -24 L46 -14 L14 -14 Z" class="uc-f-glass"/><circle cx="-34" cy="12" r="12" class="uc-f-tire"/><circle cx="-34" cy="12" r="5" class="uc-f-steel"/><circle cx="36" cy="12" r="12" class="uc-f-tire"/><circle cx="36" cy="12" r="5" class="uc-f-steel"/></g>
-<text x="104" y="283" class="uc-t" text-anchor="start">Passat (no. 3)</text>
+<text x="104" y="283" class="uc-t" text-anchor="start">Calix (no. 3)</text>
 <text x="380" y="283" class="uc-s" text-anchor="end">60,310 EUR</text>
 <g transform="translate(78 312) scale(0.28)"><path d="M-58 12 L-58 -2 Q-56 -10 -44 -12 L-28 -14 L-12 -28 Q-6 -32 4 -32 L26 -32 Q34 -32 40 -26 L52 -13 Q60 -11 60 -2 L60 12 Z" class="uc-f-blue"/><path d="M-22 -14 L-10 -26 Q-6 -28 -2 -28 L10 -28 L10 -14 Z" class="uc-f-glass"/><path d="M14 -28 L26 -28 Q32 -28 36 -24 L46 -14 L14 -14 Z" class="uc-f-glass"/><circle cx="-34" cy="12" r="12" class="uc-f-tire"/><circle cx="-34" cy="12" r="5" class="uc-f-steel"/><circle cx="36" cy="12" r="12" class="uc-f-tire"/><circle cx="36" cy="12" r="5" class="uc-f-steel"/></g>
-<text x="104" y="317" class="uc-t" text-anchor="start">Tiguan (no. 4)</text>
+<text x="104" y="317" class="uc-t" text-anchor="start">Rivuna (no. 4)</text>
 <text x="380" y="317" class="uc-s" text-anchor="end">81,160 EUR</text>
 <g transform="translate(78 346) scale(0.28)"><path d="M-58 12 L-58 -2 Q-56 -10 -44 -12 L-28 -14 L-12 -28 Q-6 -32 4 -32 L26 -32 Q34 -32 40 -26 L52 -13 Q60 -11 60 -2 L60 12 Z" class="uc-f-blue"/><path d="M-22 -14 L-10 -26 Q-6 -28 -2 -28 L10 -28 L10 -14 Z" class="uc-f-glass"/><path d="M14 -28 L26 -28 Q32 -28 36 -24 L46 -14 L14 -14 Z" class="uc-f-glass"/><circle cx="-34" cy="12" r="12" class="uc-f-tire"/><circle cx="-34" cy="12" r="5" class="uc-f-steel"/><circle cx="36" cy="12" r="12" class="uc-f-tire"/><circle cx="36" cy="12" r="5" class="uc-f-steel"/></g>
-<text x="104" y="351" class="uc-t" text-anchor="start">Touareg (no. 5)</text>
+<text x="104" y="351" class="uc-t" text-anchor="start">Eldel (no. 5)</text>
 <text x="380" y="351" class="uc-s" text-anchor="end">88,630 EUR</text>
 <path d="M410 230 L476 230" class="uc-line" marker-end="url(#revision-arrow)"/>
 <text x="443" y="220" class="uc-xs" text-anchor="middle">next year</text>
@@ -76,25 +76,25 @@ svg.uc .uc-card{fill:var(--uc-card);stroke:var(--uc-line);stroke-width:1.5}
 <text x="580" y="125" class="uc-b" text-anchor="start">Catalog 2027</text>
 <text x="580" y="145" class="uc-s" text-anchor="start">6 cars</text>
 <g transform="translate(518 210) scale(0.28)"><path d="M-58 12 L-58 -2 Q-56 -10 -44 -12 L-28 -14 L-12 -28 Q-6 -32 4 -32 L26 -32 Q34 -32 40 -26 L52 -13 Q60 -11 60 -2 L60 12 Z" class="uc-f-blue"/><path d="M-22 -14 L-10 -26 Q-6 -28 -2 -28 L10 -28 L10 -14 Z" class="uc-f-glass"/><path d="M14 -28 L26 -28 Q32 -28 36 -24 L46 -14 L14 -14 Z" class="uc-f-glass"/><circle cx="-34" cy="12" r="12" class="uc-f-tire"/><circle cx="-34" cy="12" r="5" class="uc-f-steel"/><circle cx="36" cy="12" r="12" class="uc-f-tire"/><circle cx="36" cy="12" r="5" class="uc-f-steel"/></g>
-<text x="544" y="215" class="uc-t" text-anchor="start">Polo (no. 1)</text>
+<text x="544" y="215" class="uc-t" text-anchor="start">Amita (no. 1)</text>
 <text x="820" y="215" class="uc-s" text-anchor="end">18,600 EUR</text>
 <g transform="translate(518 244) scale(0.28)"><path d="M-58 12 L-58 -2 Q-56 -10 -44 -12 L-28 -14 L-12 -28 Q-6 -32 4 -32 L26 -32 Q34 -32 40 -26 L52 -13 Q60 -11 60 -2 L60 12 Z" class="uc-f-blue"/><path d="M-22 -14 L-10 -26 Q-6 -28 -2 -28 L10 -28 L10 -14 Z" class="uc-f-glass"/><path d="M14 -28 L26 -28 Q32 -28 36 -24 L46 -14 L14 -14 Z" class="uc-f-glass"/><circle cx="-34" cy="12" r="12" class="uc-f-tire"/><circle cx="-34" cy="12" r="5" class="uc-f-steel"/><circle cx="36" cy="12" r="12" class="uc-f-tire"/><circle cx="36" cy="12" r="5" class="uc-f-steel"/></g>
-<text x="544" y="249" class="uc-t" text-anchor="start">Golf (no. 2)</text>
+<text x="544" y="249" class="uc-t" text-anchor="start">Orveo (no. 2)</text>
 <text x="820" y="249" class="uc-s" text-anchor="end">26,070 EUR</text>
 <g transform="translate(518 278) scale(0.28)"><path d="M-58 12 L-58 -2 Q-56 -10 -44 -12 L-28 -14 L-12 -28 Q-6 -32 4 -32 L26 -32 Q34 -32 40 -26 L52 -13 Q60 -11 60 -2 L60 12 Z" class="uc-f-blue"/><path d="M-22 -14 L-10 -26 Q-6 -28 -2 -28 L10 -28 L10 -14 Z" class="uc-f-glass"/><path d="M14 -28 L26 -28 Q32 -28 36 -24 L46 -14 L14 -14 Z" class="uc-f-glass"/><circle cx="-34" cy="12" r="12" class="uc-f-tire"/><circle cx="-34" cy="12" r="5" class="uc-f-steel"/><circle cx="36" cy="12" r="12" class="uc-f-tire"/><circle cx="36" cy="12" r="5" class="uc-f-steel"/></g>
-<text x="544" y="283" class="uc-t" text-anchor="start">Passat (no. 3)</text>
+<text x="544" y="283" class="uc-t" text-anchor="start">Calix (no. 3)</text>
 <text x="820" y="283" class="uc-s" text-anchor="end">60,310 EUR</text>
 <g transform="translate(518 312) scale(0.28)"><path d="M-58 12 L-58 -2 Q-56 -10 -44 -12 L-28 -14 L-12 -28 Q-6 -32 4 -32 L26 -32 Q34 -32 40 -26 L52 -13 Q60 -11 60 -2 L60 12 Z" class="uc-f-blue"/><path d="M-22 -14 L-10 -26 Q-6 -28 -2 -28 L10 -28 L10 -14 Z" class="uc-f-glass"/><path d="M14 -28 L26 -28 Q32 -28 36 -24 L46 -14 L14 -14 Z" class="uc-f-glass"/><circle cx="-34" cy="12" r="12" class="uc-f-tire"/><circle cx="-34" cy="12" r="5" class="uc-f-steel"/><circle cx="36" cy="12" r="12" class="uc-f-tire"/><circle cx="36" cy="12" r="5" class="uc-f-steel"/></g>
-<text x="544" y="317" class="uc-t" text-anchor="start">Tiguan (no. 4)</text>
+<text x="544" y="317" class="uc-t" text-anchor="start">Rivuna (no. 4)</text>
 <text x="820" y="317" class="uc-s" text-anchor="end">81,160 EUR</text>
 <rect x="492" y="331" width="336" height="30" rx="8" class="uc-f-orange-soft"/>
 <g transform="translate(518 346) scale(0.28)"><path d="M-58 12 L-58 -2 Q-56 -10 -44 -12 L-28 -14 L-12 -28 Q-6 -32 4 -32 L26 -32 Q34 -32 40 -26 L52 -13 Q60 -11 60 -2 L60 12 Z" class="uc-f-orange"/><path d="M-22 -14 L-10 -26 Q-6 -28 -2 -28 L10 -28 L10 -14 Z" class="uc-f-glass"/><path d="M14 -28 L26 -28 Q32 -28 36 -24 L46 -14 L14 -14 Z" class="uc-f-glass"/><circle cx="-34" cy="12" r="12" class="uc-f-tire"/><circle cx="-34" cy="12" r="5" class="uc-f-steel"/><circle cx="36" cy="12" r="12" class="uc-f-tire"/><circle cx="36" cy="12" r="5" class="uc-f-steel"/></g>
-<text x="544" y="351" class="uc-t" text-anchor="start">Touareg (no. 5)</text>
+<text x="544" y="351" class="uc-t" text-anchor="start">Eldel (no. 5)</text>
 <text x="820" y="351" class="uc-b" text-anchor="end">91,280 EUR</text>
 <text x="710" y="351" class="uc-xs" text-anchor="end">was 88,630</text>
 <rect x="492" y="365" width="336" height="30" rx="8" class="uc-f-green-soft"/>
 <g transform="translate(518 380) scale(0.28)"><path d="M-58 12 L-58 -2 Q-56 -10 -44 -12 L-28 -14 L-12 -28 Q-6 -32 4 -32 L26 -32 Q34 -32 40 -26 L52 -13 Q60 -11 60 -2 L60 12 Z" class="uc-f-green"/><path d="M-22 -14 L-10 -26 Q-6 -28 -2 -28 L10 -28 L10 -14 Z" class="uc-f-glass"/><path d="M14 -28 L26 -28 Q32 -28 36 -24 L46 -14 L14 -14 Z" class="uc-f-glass"/><circle cx="-34" cy="12" r="12" class="uc-f-tire"/><circle cx="-34" cy="12" r="5" class="uc-f-steel"/><circle cx="36" cy="12" r="12" class="uc-f-tire"/><circle cx="36" cy="12" r="5" class="uc-f-steel"/></g>
-<text x="544" y="385" class="uc-t" text-anchor="start">Polo (no. 6)</text>
+<text x="544" y="385" class="uc-t" text-anchor="start">Amita (no. 6)</text>
 <text x="820" y="385" class="uc-b" text-anchor="end">19,690 EUR</text>
 <text x="710" y="385" class="uc-xs" text-anchor="end">new</text>
 <rect x="40" y="424" width="51" height="20" rx="10" class="uc-f-green-soft"/><text x="65.5" y="438" class="uc-xs" text-anchor="middle">1 new</text>

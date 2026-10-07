@@ -33,7 +33,7 @@ describe('the use case page', () => {
   it('shows real things, no hashes', async () => {
     const files = await renderUsecase();
     const page = files['architecture.md'];
-    expect(page).toContain('Volkswagen Polo');
+    expect(page).toContain('Velora Amita');
     expect(page).toContain('Hex bolt');
     expect(page).not.toMatch(/_hash|[A-Za-z0-9_-]{22}/);
   });

@@ -23,7 +23,7 @@ import type { EBodyType, EFuel } from '../dictionaries/vehicles.ts';
 // #############################################################################
 /** A manufacturer: the entry point of the world */
 export interface EManufacturer extends Row {
-  /** The brand in kebab case, e.g. "mercedes-benz" */
+  /** The brand in kebab case, e.g. "velora" */
   id: string;
 
   /** The name of the company */

@@ -61,12 +61,12 @@ describe('generateCarWorld(config, emitter)', () => {
       cars: count,
       manufacturers: count,
       addresses: count,
-      first: ['volkswagen', [world.catalogs._data[0]._hash]],
+      first: ['velora', [world.catalogs._data[0]._hash]],
     });
     expect(rows[count - 1]).toMatchObject({
-      id: 'volkswagen-2',
-      name: 'Volkswagen AG 2',
-      brand: 'Volkswagen',
+      id: 'velora-2',
+      name: 'Velora AG 2',
+      brand: 'Velora',
     });
   });
 });

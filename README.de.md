@@ -24,8 +24,8 @@ Unit-Test bis zu 25 Millionen Zeilen für einen Lasttest.
   skalieren
 - In Node.js, im Browser und in Web Workern laufen, ohne Abhängigkeit zu
   Dateisystem oder Datenbank
-- Anschauliche Daten liefern: bekannte Autonamen, plausible Teile,
-  Werkstätten mit Adresse und Inhaber, alles erfunden (siehe Marken)
+- Anschauliche Daten liefern: erfundene Marken und Modelle, plausible
+  Teile, Werkstätten mit Adresse und Inhaber
 
 ## Stand
 
@@ -45,7 +45,7 @@ pnpm add @rljson/edge @rljson/rljson
   Entwurf, Größen und Ideen, im Projektmanagement-Repo
 - [Entscheidungen edge-001 bis edge-004](https://github.com/rljson/rljson-pm/blob/main/doc/2026-Q4/concepts/decisions/000-index.md):
   keine Buffets, kein Zufall, Callback-Sinks, abgeleitete Modelljahre
-- Die Sektion »Generate Rljson« auf [rljson.github.io](https://rljson.github.io):
+- Die Sektion »Example« auf [rljson.github.io](https://rljson.github.io):
   Schritt-für-Schritt-Tutorials
 - [Guides](doc/guides): wie in diesem Repo entwickelt, getestet und
   reviewt wird
@@ -176,12 +176,11 @@ Katalog.
 | `EStats`, `EEstimate`, `EProgress`       | Die Ergebnisse und der Fortschritt eines Laufs                                                                                                                                                             |
 | Wörterbücher                             | `manufacturers`, `vehicles`, `modelsOf`, `assemblies`, `standardParts`, `materialsOf`, `cadSystems`, `cadDetails`, `cadMaterials`, `cities`, `citiesIn`, `cityNamed`, `streets`, `firstNames`, `lastNames` |
 
-## Marken
+## Erfundene Namen
 
-Edge erfindet alle Daten: Preise, Adressen, Personen, Werkstätten und
-Teile. Marken- und Modellnamen machen die Beispiele nur anschaulicher; sie
-gehören ihren Inhabern. Edge und Rljson stehen in keiner Verbindung zu
-einem Autohersteller.
+Edge erfindet alle Namen: Marken, Modelle, Firmen, Personen und
+Werkstätten. Nur Länder und Städte sind echt. Ähnlichkeiten mit echten
+Namen sind zufällig.
 
 ## Mitwirken
 

@@ -49,7 +49,7 @@ const label = (id: string) => {
 /**
  * Removes the brand from a model name.
  * @param f - The facts
- * @param model - The model, e.g. "Volkswagen Polo"
+ * @param model - The model, e.g. "Velora Amita"
  */
 const short = (f: UcFacts, model: string) =>
   model.replace(`${f.manufacturer.brand} `, '');
@@ -66,7 +66,7 @@ const overview = (f: UcFacts): string => {
   const car = f.car;
   const parts: string[] = [];
 
-  parts.push(text(40, 48, 'The car world at a glance', 'uc-h'));
+  parts.push(text(40, 48, 'The World of Cars at a glance', 'uc-h'));
 
   // Manufacturer
   parts.push(card(40, 80, 200, 170));
@@ -143,7 +143,7 @@ const overview = (f: UcFacts): string => {
 
   return svg(
     n,
-    'The car world at a glance',
+    'The World of Cars at a glance',
     `${f.manufacturer.name} publishes a catalog per model year. A catalog lists cars. ` +
       `Each car, like the ${car.model}, has a price, a brand and model, a workshop, its parts and a 3D model.`,
     960,

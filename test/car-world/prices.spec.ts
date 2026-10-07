@@ -16,10 +16,10 @@ describe('priceRow(config, input)', () => {
     ...(edgeDefaults().layers.prices as Required<EPricesConfig>),
     discountShare: 0.25,
   };
-  const [polo] = modelsOf('Volkswagen').filter((m) => m.model === 'Polo');
-  const [cayenne] = modelsOf('Porsche').filter((m) => m.model === 'Cayenne');
+  const [amita] = modelsOf('Velora').filter((m) => m.model === 'Amita');
+  const [xenade] = modelsOf('Quinis').filter((m) => m.model === 'Xenade');
   const input = (carNo: number, raises = 0): EPriceInput => ({
-    model: polo,
+    model: amita,
     modelIndex: 0,
     carNo,
     year: 2026,
@@ -50,7 +50,7 @@ describe('priceRow(config, input)', () => {
 
   it('prices an SUV above a hatchback and raises by three percent', () => {
     const cheap = priceRow(config, input(1)).amount;
-    const dear = priceRow(config, { ...input(1), model: cayenne }).amount;
+    const dear = priceRow(config, { ...input(1), model: xenade }).amount;
     const raised = priceRow(config, input(1, 1)).amount;
     expect([dear > cheap, raised]).toEqual([
       true,
