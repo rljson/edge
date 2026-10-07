@@ -120,11 +120,11 @@ export const cities: readonly ECity[] = [
   { name: 'Luton', country: 'GB', zip: 'LU1 3LU', lat: 51.88, lng: -0.42 },
   { name: 'Tokyo', country: 'JP', zip: '100-0001', lat: 35.68, lng: 139.69 },
   {
-    name: 'Toyota City',
+    name: 'Okazaki',
     country: 'JP',
-    zip: '471-8571',
-    lat: 35.08,
-    lng: 137.16,
+    zip: '444-0001',
+    lat: 34.95,
+    lng: 137.17,
   },
   {
     name: 'Hiroshima',

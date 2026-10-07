@@ -8,7 +8,7 @@ found in the LICENSE file in the root of this package.
 
 # @rljson/edge - The Rljson Example Data Generator
 
-Edge generates example data for Rljson applications: a car world with
+Edge generates example data for Rljson applications: a World of Cars with
 manufacturers, their catalogs of cars, and for every car a price, a brand,
 a workshop, a bill of materials and a CAD scene. One generated world uses
 every Rljson data type, from a hundred rows for a unit test to 25 million
@@ -23,8 +23,8 @@ rows for a load test.
 - Scale from a unit test fixture to a load test with 20 million objects
 - Run in Node.js, in the browser and in Web Workers, without file system or
   database dependencies
-- Keep the data vivid: real brands and models, plausible parts, workshops
-  with addresses and owners
+- Keep the data vivid: invented brands and models, plausible parts,
+  workshops with addresses and owners
 
 ## State
 
@@ -38,11 +38,13 @@ pnpm add @rljson/edge @rljson/rljson
 
 ## Documentation
 
+- [The World of Cars](doc/architecture.md): what Edge generates and why,
+  explained with pictures, for readers without a technical background
 - [Example data generator](https://github.com/rljson/rljson-pm/blob/main/doc/2026-Q4/concepts/topics/example-data-generator.md):
   design, sizes and ideas, in the project management repo
 - [Decisions edge-001 to edge-004](https://github.com/rljson/rljson-pm/blob/main/doc/2026-Q4/concepts/decisions/000-index.md):
   no buffets, no randomness, callback sinks, derived model years
-- The section »Generate Rljson« on [rljson.github.io](https://rljson.github.io):
+- The section »Example« on [rljson.github.io](https://rljson.github.io):
   step-by-step tutorials
 - [Guides](doc/guides): how to develop, test and review in this repo
 
@@ -168,6 +170,12 @@ catalog.
 | `EConfig` and its sections               | `ELayersConfig`, `EPricesConfig`, `EBrandsConfig`, `EWorkshopsConfig`, `EPartsConfig`, `ECadConfig`, `ERevisionsConfig`, `EResolvedConfig`                                                                 |
 | `EStats`, `EEstimate`, `EProgress`       | The results and the progress of a run                                                                                                                                                                      |
 | Dictionaries                             | `manufacturers`, `vehicles`, `modelsOf`, `assemblies`, `standardParts`, `materialsOf`, `cadSystems`, `cadDetails`, `cadMaterials`, `cities`, `citiesIn`, `cityNamed`, `streets`, `firstNames`, `lastNames` |
+
+## Invented names
+
+Edge invents all names: brands, models, companies, people and workshops.
+Only countries and cities are real. Any similarity to real names is
+coincidental.
 
 ## Contributing
 

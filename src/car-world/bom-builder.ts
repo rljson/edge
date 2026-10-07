@@ -39,7 +39,7 @@ export interface EBomBuilderOptions {
   /** The parts layer configuration */
   config: Required<EPartsConfig>;
 
-  /** The part number prefix of the manufacturer, e.g. "AUD" */
+  /** The part number prefix of the manufacturer, e.g. "YAR" */
   prefix: string;
 
   /** Who the bill of materials belongs to */

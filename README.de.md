@@ -24,8 +24,8 @@ Unit-Test bis zu 25 Millionen Zeilen für einen Lasttest.
   skalieren
 - In Node.js, im Browser und in Web Workern laufen, ohne Abhängigkeit zu
   Dateisystem oder Datenbank
-- Anschauliche Daten liefern: echte Marken und Modelle, plausible Teile,
-  Werkstätten mit Adresse und Inhaber
+- Anschauliche Daten liefern: erfundene Marken und Modelle, plausible
+  Teile, Werkstätten mit Adresse und Inhaber
 
 ## Stand
 
@@ -39,11 +39,13 @@ pnpm add @rljson/edge @rljson/rljson
 
 ## Dokumentation
 
+- [Die Autowelt](doc/architecture.md): was Edge erzeugt und wozu, in
+  Bildern erklärt, für Leser ohne technischen Hintergrund (Englisch)
 - [Beispieldatengenerator](https://github.com/rljson/rljson-pm/blob/main/doc/2026-Q4/concepts/topics/example-data-generator.md):
   Entwurf, Größen und Ideen, im Projektmanagement-Repo
 - [Entscheidungen edge-001 bis edge-004](https://github.com/rljson/rljson-pm/blob/main/doc/2026-Q4/concepts/decisions/000-index.md):
   keine Buffets, kein Zufall, Callback-Sinks, abgeleitete Modelljahre
-- Die Sektion »Generate Rljson« auf [rljson.github.io](https://rljson.github.io):
+- Die Sektion »Example« auf [rljson.github.io](https://rljson.github.io):
   Schritt-für-Schritt-Tutorials
 - [Guides](doc/guides): wie in diesem Repo entwickelt, getestet und
   reviewt wird
@@ -173,6 +175,12 @@ Katalog.
 | `EConfig` und seine Abschnitte           | `ELayersConfig`, `EPricesConfig`, `EBrandsConfig`, `EWorkshopsConfig`, `EPartsConfig`, `ECadConfig`, `ERevisionsConfig`, `EResolvedConfig`                                                                 |
 | `EStats`, `EEstimate`, `EProgress`       | Die Ergebnisse und der Fortschritt eines Laufs                                                                                                                                                             |
 | Wörterbücher                             | `manufacturers`, `vehicles`, `modelsOf`, `assemblies`, `standardParts`, `materialsOf`, `cadSystems`, `cadDetails`, `cadMaterials`, `cities`, `citiesIn`, `cityNamed`, `streets`, `firstNames`, `lastNames` |
+
+## Erfundene Namen
+
+Edge erfindet alle Namen: Marken, Modelle, Firmen, Personen und
+Werkstätten. Nur Länder und Städte sind echt. Ähnlichkeiten mit echten
+Namen sind zufällig.
 
 ## Mitwirken
 

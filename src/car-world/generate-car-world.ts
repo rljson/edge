@@ -42,7 +42,7 @@ const prefixLength = 3;
 // .............................................................................
 /**
  * Returns the part number prefix of a brand: its first three letters.
- * @param brand - The brand, e.g. "Mercedes-Benz"
+ * @param brand - The brand, e.g. "Velora"
  */
 export const prefixOf = (brand: string): string =>
   slug(brand).replace(/-/g, '').slice(0, prefixLength).toUpperCase();

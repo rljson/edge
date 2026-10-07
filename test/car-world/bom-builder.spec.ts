@@ -14,7 +14,7 @@ import { EEmitter } from '../../src/core/emitter.ts';
 import type { EPart } from '../../src/index.ts';
 
 describe('EBomBuilder', () => {
-  const variant = { code: 'a4', name: 'Audi A4', offset: 1 };
+  const variant = { code: 'dovix', name: 'Yarant Dovix', offset: 1 };
 
   const build = async (depth: 1 | 2 | 3 | 4) => {
     const rows: EPart[] = [];
@@ -26,7 +26,7 @@ describe('EBomBuilder', () => {
     const bom = await new EBomBuilder({
       emitter,
       config: { depth, fanOut: 2, sharing: 'perModel', standardPartsPool: 6 },
-      prefix: 'AUD',
+      prefix: 'YAR',
       variant,
     }).build();
     return { rows, bom };
@@ -70,8 +70,8 @@ describe('EBomBuilder', () => {
       const root = rows.find((r) => r._hash === bom.rootRef) as EPart;
       expect(bom.partRefs[0]).toBe(bom.rootRef);
       expect(root).toEqual({
-        name: 'Bill of materials Audi A4',
-        partNumber: 'AUD-A4-BOM',
+        name: 'Bill of materials Yarant Dovix',
+        partNumber: 'YAR-DOVIX-BOM',
         category: 'bom',
         level: 0,
         quantity: 1,
@@ -82,7 +82,7 @@ describe('EBomBuilder', () => {
       });
       expect(
         rows.filter((r) => r.level === 1).map((r) => r.partNumber),
-      ).toEqual(['AUD-A4-1-0001', 'AUD-A4-1-0004']);
+      ).toEqual(['YAR-DOVIX-1-0001', 'YAR-DOVIX-1-0004']);
     });
   });
 });

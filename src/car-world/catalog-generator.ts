@@ -41,10 +41,10 @@ export interface ECatalogManufacturer {
   /** The index of the manufacturer within the world */
   index: number;
 
-  /** The id of the manufacturer, e.g. "audi" */
+  /** The id of the manufacturer, e.g. "yarant" */
   id: string;
 
-  /** The part number prefix, e.g. "AUD" */
+  /** The part number prefix, e.g. "YAR" */
   prefix: string;
 
   /** The ISO 3166 country code */

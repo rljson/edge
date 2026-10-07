@@ -46,7 +46,7 @@ export const segmentOf = (catalogIndex: number): string => {
 
 // .............................................................................
 /**
- * Returns the id of a catalog without its year, e.g. "audi-cars".
+ * Returns the id of a catalog without its year, e.g. "yarant-cars".
  * @param manufacturerId - The id of the manufacturer
  * @param catalogIndex - The index of the catalog within the manufacturer
  */
@@ -57,7 +57,7 @@ export const catalogBaseId = (
 
 // .............................................................................
 /**
- * Returns the slice id of a car, e.g. "audi-cars-000017".
+ * Returns the slice id of a car, e.g. "yarant-cars-000017".
  * @param baseId - The id of the catalog without its year
  * @param carNo - The number of the car, starting at 1
  */
@@ -255,10 +255,10 @@ export const modelIndexOf = (options: EModelOptions): number => {
 // #############################################################################
 /** Who shares a bill of materials or a scene: a code for ids and a name */
 export interface EVariant {
-  /** A short code for part numbers and cache keys, e.g. "a4" */
+  /** A short code for part numbers and cache keys, e.g. "dovix" */
   code: string;
 
-  /** A readable name, e.g. "Audi A4" */
+  /** A readable name, e.g. "Yarant Dovix" */
   name: string;
 
   /** A number that varies the assemblies and systems the variant uses */
