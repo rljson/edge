@@ -1,3 +1,5 @@
 minimumReleaseAgeExclude:
   - '@types/node@26.1.0'
   - vite@8.1.2
+overrides:
+  "@rljson\/rljson": link:./.gg/ts_links/@rljson/rljson
