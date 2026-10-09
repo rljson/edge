@@ -2,4 +2,4 @@
 // Kept in sync by test/edge_version.spec.ts.
 
 /** The version of the `@rljson/edge` package. */
-export const edgeVersion = '0.0.2';
+export const edgeVersion = '0.0.3';
