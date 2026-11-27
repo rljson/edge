@@ -41,7 +41,7 @@ const copyReadmeFiles = async () => {
 
 // Ships the use case page and its images, rljson.github.io shows them
 const copyUsecaseDoc = async () => {
-  const srcDir = join(__dirname, '..', 'doc');
+  const srcDir = join(__dirname, '..', 'doc', 'en');
   const destDir = join(__dirname, '..', 'dist', 'doc');
   await createDir(join(destDir, 'img'));
   await copyFile(

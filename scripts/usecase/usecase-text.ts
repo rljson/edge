@@ -9,7 +9,7 @@ import { num } from './usecase-svg-kit.ts';
 
 /**
  * Writes an image line. rljson.github.io replaces it by the inlined SVG.
- * @param file - The file name in doc/img
+ * @param file - The file name in doc/en/img
  * @param alt - The alternative text
  */
 const img = (file: string, alt: string) => `![${alt}](img/${file})`;

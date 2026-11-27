@@ -38,7 +38,7 @@ pnpm add @rljson/edge @rljson/rljson
 
 ## Documentation
 
-- [The World of Cars](doc/architecture.md): what Edge generates and why,
+- [The World of Cars](doc/en/architecture.md): what Edge generates and why,
   explained with pictures, for readers without a technical background
 - [Example data generator](https://github.com/rljson/rljson-pm/blob/main/doc/2026-Q4/concepts/topics/example-data-generator.md):
   design, sizes and ideas, in the project management repo
@@ -46,7 +46,7 @@ pnpm add @rljson/edge @rljson/rljson
   no buffets, no randomness, callback sinks, derived model years
 - The section »Example« on [rljson.github.io](https://rljson.github.io):
   step-by-step tutorials
-- [Guides](doc/guides): how to develop, test and review in this repo
+- [Guides](doc/en/guides): how to develop, test and review in this repo
 
 ## Code Examples
 
@@ -179,5 +179,5 @@ coincidental.
 
 ## Contributing
 
-Work ticket by ticket with `gg`, as the [Develop Guide](doc/guides/develop-guide.md)
-describes. Reviews follow the [Review Guide](doc/guides/for-ai/ai-review-guide.md).
+Work ticket by ticket with `gg`, as the [Develop Guide](doc/en/guides/develop-guide.md)
+describes. Reviews follow the [Review Guide](doc/en/guides/for-ai/ai-review-guide.md).
