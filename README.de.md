@@ -39,7 +39,7 @@ pnpm add @rljson/edge @rljson/rljson
 
 ## Dokumentation
 
-- [Die Autowelt](doc/architecture.md): was Edge erzeugt und wozu, in
+- [Die Autowelt](doc/en/architecture.md): was Edge erzeugt und wozu, in
   Bildern erklärt, für Leser ohne technischen Hintergrund (Englisch)
 - [Beispieldatengenerator](https://github.com/rljson/rljson-pm/blob/main/doc/2026-Q4/concepts/topics/example-data-generator.md):
   Entwurf, Größen und Ideen, im Projektmanagement-Repo
@@ -47,7 +47,7 @@ pnpm add @rljson/edge @rljson/rljson
   keine Buffets, kein Zufall, Callback-Sinks, abgeleitete Modelljahre
 - Die Sektion »Example« auf [rljson.github.io](https://rljson.github.io):
   Schritt-für-Schritt-Tutorials
-- [Guides](doc/guides): wie in diesem Repo entwickelt, getestet und
+- [Guides](doc/en/guides): wie in diesem Repo entwickelt, getestet und
   reviewt wird
 
 ## Code-Beispiele
@@ -185,5 +185,5 @@ Namen sind zufällig.
 ## Mitwirken
 
 Gearbeitet wird Ticket für Ticket mit `gg`, wie es der
-[Develop Guide](doc/guides/develop-guide.md) beschreibt. Reviews folgen dem
-[Review Guide](doc/guides/for-ai/ai-review-guide.md).
+[Develop Guide](doc/en/guides/develop-guide.md) beschreibt. Reviews folgen dem
+[Review Guide](doc/en/guides/for-ai/ai-review-guide.md).

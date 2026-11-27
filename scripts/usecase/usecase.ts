@@ -4,7 +4,7 @@
 // Use of this source code is governed by terms that can be
 // found in the LICENSE file in the root of this package.
 
-// Renders doc/architecture.md and the images in doc/img from a real run
+// Renders doc/en/architecture.md and the images in doc/en/img from a real run
 // of Edge. build-usecase.ts writes them, test/usecase.spec.ts checks them.
 
 import { mkdir, writeFile } from 'fs/promises';
@@ -15,12 +15,13 @@ import { usecaseFacts } from './usecase-facts.ts';
 import { usecaseImages } from './usecase-images.ts';
 import { usecaseText } from './usecase-text.ts';
 
-/** The doc folder of the repo */
+/** The English doc folder of the repo */
 export const docDir = join(
   dirname(fileURLToPath(import.meta.url)),
   '..',
   '..',
   'doc',
+  'en',
 );
 
 /** Renders the use case page and its images, by path relative to doc */
